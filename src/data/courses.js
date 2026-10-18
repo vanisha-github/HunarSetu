@@ -1,0 +1,142 @@
+// Demo learning modules for the Learning Roadmap.
+// "resource" mentions public learning platforms as suggested places to learn.
+// The prototype is NOT officially integrated with them.
+
+export const learningPlatforms = [
+  { name: 'DIKSHA', note: 'School curriculum resources' },
+  { name: 'SWAYAM', note: 'Free online courses' },
+  { name: 'Skill India Digital', note: 'Vocational skill courses' },
+]
+
+export const modules = [
+  {
+    id: 'mod-1',
+    title: 'Foundations of Soil & Water',
+    pathway: 'agri-tech',
+    pathwayLabel: 'Agricultural Technology',
+    level: 'Beginner',
+    duration: '3 weeks · 6 hrs',
+    image: 'agriTech',
+    objective: 'Understand soil types, water needs and why irrigation planning matters.',
+    exercises: [
+      'Collect a soil sample and describe its texture and colour.',
+      'Measure how fast water soaks into two different soils.',
+      'List three signs of a crop needing water.',
+    ],
+    resource: 'DIKSHA · Basic Science',
+  },
+  {
+    id: 'mod-2',
+    title: 'Smart Irrigation Basics',
+    pathway: 'agri-tech',
+    pathwayLabel: 'Agricultural Technology',
+    level: 'Intermediate',
+    duration: '4 weeks · 8 hrs',
+    image: 'solarInstall',
+    objective: 'Plan drip and sprinkler systems and estimate water savings.',
+    exercises: [
+      'Sketch a drip layout for a 1-acre plot.',
+      'Calculate weekly water use before and after drip irrigation.',
+      'Interview a farmer about their current watering method.',
+    ],
+    resource: 'Skill India Digital · Agriculture',
+  },
+  {
+    id: 'mod-3',
+    title: 'HTML, CSS & First Web Page',
+    pathway: 'web-dev',
+    pathwayLabel: 'Web Developer',
+    level: 'Beginner',
+    duration: '4 weeks · 10 hrs',
+    image: 'webDev',
+    objective: 'Build and style a simple, readable web page from scratch.',
+    exercises: [
+      'Create a personal introduction page.',
+      'Style it with colours, spacing and fonts.',
+      'Publish it and share the link with a friend.',
+    ],
+    resource: 'SWAYAM · Introduction to Programming',
+  },
+  {
+    id: 'mod-4',
+    title: 'JavaScript Logic & Interactivity',
+    pathway: 'web-dev',
+    pathwayLabel: 'Web Developer',
+    level: 'Intermediate',
+    duration: '5 weeks · 12 hrs',
+    image: 'code',
+    objective: 'Add interactive behaviour and handle user input on a web page.',
+    exercises: [
+      'Build a simple calculator.',
+      'Create a to-do list that remembers tasks.',
+      'Show or hide content with a button click.',
+    ],
+    resource: 'SWAYAM · Programming Fundamentals',
+  },
+  {
+    id: 'mod-5',
+    title: 'Milk Handling & Quality Basics',
+    pathway: 'dairy',
+    pathwayLabel: 'Dairy & Agri-business',
+    level: 'Beginner',
+    duration: '2 weeks · 5 hrs',
+    image: 'dairy',
+    objective: 'Handle, chill and check milk quality to get a better price.',
+    exercises: [
+      'Describe the correct steps for clean milk collection.',
+      'Test milk freshness using a simple method.',
+      'Record one week of collection and note any losses.',
+    ],
+    resource: 'Skill India Digital · Animal Husbandry',
+  },
+  {
+    id: 'mod-6',
+    title: 'Solar Panel Installation & Safety',
+    pathway: 'solar',
+    pathwayLabel: 'Solar Energy Technician',
+    level: 'Beginner',
+    duration: '4 weeks · 9 hrs',
+    image: 'solar',
+    objective: 'Work safely and mount a small solar array correctly.',
+    exercises: [
+      'List five electrical safety rules.',
+      'Identify parts of a solar panel and inverter.',
+      'Explain how a solar pump helps a farm.',
+    ],
+    resource: 'Skill India Digital · Green Skills',
+  },
+  {
+    id: 'mod-7',
+    title: 'Social Media for Local Business',
+    pathway: 'digital-marketing',
+    pathwayLabel: 'Digital Marketing',
+    level: 'Beginner',
+    duration: '3 weeks · 7 hrs',
+    image: 'digitalMarketing',
+    objective: 'Promote a local product with simple, honest messaging.',
+    exercises: [
+      'Write three captions for a local product.',
+      'Identify the best audience for a honey seller.',
+      'Plan a one-week posting schedule.',
+    ],
+    resource: 'SWAYAM · Business & Management',
+  },
+  {
+    id: 'mod-8',
+    title: 'Product Photography & Online Listing',
+    pathway: 'handicraft',
+    pathwayLabel: 'Handicraft & E-commerce',
+    level: 'Intermediate',
+    duration: '3 weeks · 8 hrs',
+    image: 'pottery',
+    objective: 'Photograph handmade products and create honest online listings.',
+    exercises: [
+      'Photograph five items using natural light.',
+      'Write a short story for one product.',
+      'Price a product to include cost and profit.',
+    ],
+    resource: 'Skill India Digital · Handicrafts',
+  },
+]
+
+export default modules
